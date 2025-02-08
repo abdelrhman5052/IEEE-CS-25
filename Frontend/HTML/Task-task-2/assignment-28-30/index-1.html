@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="" method="get">
+        <div>
+            <label for="user">Username</label>
+            <input id="user" type="text" name="username" required autofocus minlength="5" maxlength="20">
+        </div>
+        <br>
+        <div>
+            <label for="Email ">E Mail </label>
+            <input id="Email" type="email" name="Email" required value="o@o.com" readonly>
+
+        </div>
+        <br>
+        <div>
+            <input id="token" type="text" name="token" hidden value="b92f1fc2fce391ad7af633723afd3055">
+            <label for="token"> token</label>
+        </div>
+        <hr>
+        <h2>Skills</h2>
+        <div>
+            <input id="cx" type="checkbox" name="" id="">
+            <label for="cx">Planning</label>
+        </div>
+        <div>
+            <input id="cx1" type="checkbox" name="Skills" value="Thinking">
+            <label for="cx1">Thinking</label>
+        </div>
+        <div>
+            <input id="cx2" type="checkbox" name="Skills" value="Analysis ">
+            <label for="cx2">Analysis</label>
+        </div>
+        <div>
+            <input id="cx3" type="checkbox" name="Skills" value="Search" checked>
+            <label for="cx3">Search</label>
+        </div>
+        <div>
+            <input id="cx4" type="checkbox" name="Skills" value="Advanced">
+            <label for="cx4">Advanced </label>
+        </div>
+        <div>
+            <input id="cx5" type="checkbox" name="Skills" value="Logical">
+            <label for="cx5"> Logical </label>
+        </div>
+        <div>
+            <input id="cx6" type="checkbox" name="Skills" value="Problem Solving">
+            <label for="cx6">Problem Solving</label>
+        </div>
+        <hr>
+
+        
+        <h2>Jobs</h2>
+        <div>
+            <input id="cx7" type="checkbox" name="Jobs" value=" Scrum Master" checked>
+            <label for="cx7"> Scrum Master </label>
+        </div>
+        <div>
+            <input id="cx9" type="checkbox" name="Jobs" value="Project Manager">
+            <label for="cx9">Project Manager</label>
+        </div>
+        <div>
+            <input id="cx10" type="checkbox" name="Jobs" value="Business Analyst ">
+            <label for="cx10"> Business Analyst </label>
+        </div>
+        <div>
+            <input id="cx11" type="checkbox" name="Jobs" value="Back-End Developer">
+            <label for="cx11">Back-End Developer</label>
+        </div>
+        <div>
+            <input id="cx12" type="checkbox" name="Jobs" value="Front-End Developer">
+            <label for="cx12">Front-End Developer </label>
+        </div>
+        <hr>
+        <h2>language</h2>
+        <div>
+            <label for="select"> Choose Book : </label>
+            <select name="Book" id="select">
+                <optgroup label="PHP" multible>
+                    <option value="5">v5.0</option>
+                    <option value="6">v5.0</option>
+                    <option value="7">v7.0</option>
+                </optgroup>
+                <optgroup label="Python" multible>
+                    <option value="2">v2.0</option>
+                    <option value="6">v3.0</option>
+                    <option value="7">v4.0</option>
+                </optgroup>
+            </select>
+        </div>
+        <hr>
+        <label for="txtarea">
+            <h3>Comments</h3>
+        </label>
+        <textarea name="breif" id="txtarea" placeholder="write here what you want to learn programming" cols="60"
+            rows="20"></textarea>
+        <br>
+        <input type="reset" name="reset" value="Empty">
+        <input type="submit">
+    </form>
+
+
+</body>
+</html>
