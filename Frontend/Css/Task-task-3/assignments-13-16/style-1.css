@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body {
+    min-height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+  .parent .title {
+    color: #00f;
+  }
+  .child .title {
+    color: #f00;
+  }
+  p,
+  div.title {
+    color: #0f0;
+  }
+  

@@ -1,0 +1,19 @@
+.two {
+    width: 400px;
+    height: 400px;
+    color: white;
+    background-image: url("https://i.imgur.com/YWHRWQH.png");
+    background-color: azure;
+  }
+  .assign-2-shape-1 {
+    background-repeat: no-repeat;
+  }
+  .assign-2-shape-2 {
+    background-repeat: repeat-y;
+  }
+  .assign-2-shape-3 {
+    background-repeat: repeat-x;
+  }
+  .assign-2-shape-4 {
+    background-repeat: repeat;
+  }

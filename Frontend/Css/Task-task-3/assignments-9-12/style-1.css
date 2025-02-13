@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box
+  }
+  body{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:3em
+  }
+  div{
+    display: inline-block;
+    background-color:#ddd;
+    padding:1em 2em;
+    outline:.5em solid#000;
+    font-size: 2.2em
+  }
+  div:first-child{
+    border:.5em solid#f00
+  }
+  div:nth-child(2){
+    border: .5em solid;
+    border-color:#00f#0f0
+  }
+  div:last-of-type{
+    border: .5em dashed#ff0;
+    border-color:#f00#0f0#00f#ff0
+  }

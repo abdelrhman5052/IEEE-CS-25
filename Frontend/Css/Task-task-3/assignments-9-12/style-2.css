@@ -1,0 +1,64 @@
+body {
+    height: calc(100vh - 16px);
+    display: grid;
+    place-content: center;
+    gap: 40px;
+  }
+  div {
+    width: 400px;
+    background: #eee;
+    padding: 1rem 1.2rem;
+    position: relative;
+    text-transform: capitalize;
+    font: 600 20px sans-serif;
+    border-left: 8px solid#e91e63;
+    outline :18px solid#eee
+  }
+  div:nth-of-type(2) {
+    visibility: hidden;
+  }
+  div:last-of-type {
+    border-left-color: #009688;
+  }
+  
+  /* Another solution */
+  
+  /* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  body {
+    height: 100vh;
+    display: grid;
+    place-content: center;
+  }
+  div {
+    width: 400px;
+    background: #eee;
+    padding: 2rem 2.5rem;
+    position: relative;
+    text-transform: capitalize;
+    font: 600 20px sans-serif;
+  }
+  div::before{
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: calc(100% - 1.5em);
+    top: 50%;
+    left: 15px;
+    transform: translateY(-50%);
+  }
+  div:first-of-type::before {
+    background: #e91e63;
+  }
+  div:nth-of-type(2) {
+    visibility: hidden;
+  }
+  div:last-of-type::before {
+    background: #009688;
+  }
+   */
+  
