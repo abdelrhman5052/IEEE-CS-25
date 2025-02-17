@@ -1,0 +1,35 @@
+.one div{
+    background-color: #eee;
+    padding: 20px;
+    width: 100px;
+    height: 100px;
+    position: relative;
+    border-radius: 50%;
+    box-shadow: 5px 5px 0 0px #2196f3, -5px -5px 0 0 #e91e63;
+    display: inline-block;
+    margin: 20px;
+    counter-increment: number;
+    border: 3px solid black;
+  }
+  .one div::after{
+    content: attr(data);
+    position: absolute;
+    padding: 20px;
+    font-size: 21px;
+    top: 35px;
+    left: 12px;
+  }
+  .one div::before{
+    content: counter(number);
+    background-color: black;
+    color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    line-height: 10px;
+    font-size: large;
+    padding: 8px 10px;
+    position: absolute;
+    top: -15px;
+    left: 54px;
+  }

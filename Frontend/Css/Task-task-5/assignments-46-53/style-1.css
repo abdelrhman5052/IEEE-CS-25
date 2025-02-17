@@ -1,0 +1,12 @@
+task1{
+    display: flex;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    background-color: #eee;
+    margin: 0 auto;
+    justify-content: center;
+    align-items: center;
+    color: #ff5722;
+    box-shadow: 3px 1px 0px 0px #ff5722, -3px 1px 0px 0px #03a9f4;
+  }

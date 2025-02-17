@@ -1,0 +1,21 @@
+.asign2 {
+    font-weight: bold;
+    visibility: hidden;
+    position: relative;
+    top: 30px;
+  }
+  .asign2::before {
+    content: "Elzero";
+    visibility: visible;
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    background-color: #eee !important;
+    color: black !important;
+    font-size: 20px !important;
+    border: none !important;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    margin-top: 10px;
+  }

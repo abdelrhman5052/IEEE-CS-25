@@ -1,0 +1,21 @@
+.four p{
+    background-color: #eee;
+    width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    position: relative;
+    border-right: 5px solid #ff0000;
+    counter-increment: member-counter;
+  }
+  
+  .four p::before{
+      content: counter(member-counter);
+      background-color: red;
+      color: white;
+      text-align: center;
+      font-weight: bold;
+      padding: 20px;
+      position: absolute;
+      top: 0px;
+      left: -49px;
+  }

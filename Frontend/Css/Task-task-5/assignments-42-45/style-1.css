@@ -1,0 +1,26 @@
+.parent {
+    width: 450px;
+    height: 180px;
+    background-color: #eee;
+    margin: 50px auto;
+    transition-duration: 0.5s;
+  }
+  .one {
+    padding: 10px;
+  }
+  .two {
+    background-color: rgb(199, 199, 199);
+    width: 80%;
+    padding: 10px 20px;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 18px;
+    transition-duration: 0.5s;
+    transition-delay: 0.5s;
+  }
+  .parent:hover {
+    transform: translateY(-20px);
+  }
+  .parent:hover .two {
+    margin-top: 24px;
+  }

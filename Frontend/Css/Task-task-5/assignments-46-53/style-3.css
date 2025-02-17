@@ -1,0 +1,43 @@
+.parent-two{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    margin: 0 auto;
+    background-color: #eee;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 20px;
+  }
+  .parent-two div{
+    background-color: #ddd;
+    flex-basis: 31%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .parent-two .four,.parent-two .five,.parent-two .six,.parent-two  .two{
+    height: 50%;
+  }
+  .parent-two .one,.parent-two  .three{
+    height: 15%;
+  }
+  .parent-two div:nth-child(1){
+    order: 6;
+    align-self: flex-end;
+    }
+    .parent-two div:nth-child(2){
+      order: 5;
+    }
+    .parent-two div:nth-child(3){
+      order:2 ;
+      align-self: flex-start;
+    }
+    .parent-two div:nth-child(6){
+      order: 1;
+    }
+    .parent-two div:nth-child(4){
+      order: 3;
+    }
+    .parent-two div:nth-child(5){
+      order: 4;
+    }

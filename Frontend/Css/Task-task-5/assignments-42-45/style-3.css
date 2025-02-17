@@ -1,0 +1,14 @@
+:root {
+  --mainColor: #009688;
+  --mainPadding: 10px;
+}
+
+#asign3 div {
+    width: 450px;
+    padding: var(--mainPadding);
+    text-align: left;
+    border: 3px solid var(--mainColor, red);
+    color: var(--mainColor, red);
+    margin: 10px auto;
+  }
+  

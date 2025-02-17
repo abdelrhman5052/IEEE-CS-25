@@ -1,0 +1,17 @@
+.parent{
+    display: flex;
+    height: 300px;
+    width: 600px;
+    margin: 0 auto;
+    background-color: #eee;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    align-content: space-between;
+    }
+    .parent div{
+    background-color: #ff5722;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    width: 25%;
+    }

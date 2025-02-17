@@ -1,0 +1,36 @@
+.parent-four{
+    display: flex;
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    margin: 0 auto;
+    flex-flow: wrap row;
+    justify-content: space-between;
+  }
+  .parent-four  div{
+  flex-basis: 15%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 50%;
+  }
+  .parent-four  .one{
+    background-color:#ff9800;
+  align-self: flex-start;
+  order:3;
+  }
+  .parent-four  .two{
+    background-color:#8bc34a;
+    order: 3;
+    align-self: flex-end;
+  }
+  .parent-four  .three{
+    background-color:#795548;
+    align-self: flex-start;
+    order: 4;
+  }
+  .parent-four  .four{
+    background-color:#673ab7;
+    order:1 ; 
+    align-self: flex-end;
+  }

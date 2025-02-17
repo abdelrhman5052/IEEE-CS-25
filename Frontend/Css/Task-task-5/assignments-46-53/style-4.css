@@ -1,0 +1,27 @@
+.parent-three{
+    display: flex;
+    margin: 0 auto;
+    width: 600px;
+    height: 300px;
+    background-color: #eee;
+    justify-content: space-between;
+    flex-flow: wrap column;
+    align-items: flex-end;
+    padding: 20px;
+    }
+    .parent-three div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#009688 ;
+    color: white;
+    }
+    .parent-three .one,.parent-three .three{
+    flex-basis: 30%;
+    width: 7%;
+    }
+    .parent-three .two{
+      width: 50%;
+      flex-basis: 20%;
+      align-self:flex-start;
+    }
