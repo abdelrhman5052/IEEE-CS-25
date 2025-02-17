@@ -1,0 +1,13 @@
+a{
+    display: table;
+    text-align: right;
+    background-color: #00A693;
+    text-decoration: none;
+    font: 3em bold;
+    border-bottom: 15px solid #00755E;
+    color: white;
+    text-transform: capitalize;
+    padding: 30px 50px;
+    margin: auto;
+  }
+    

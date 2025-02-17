@@ -1,0 +1,9 @@
+.main {
+    padding: 0px 20px;
+    margin: 10px;
+    font: 6em sans-serif;
+    text-transform: capitalize;
+    text-shadow: 3px 3px 0px #f4364c, 
+      6px 6px 0px #2196f3, 
+      9px 9px 0px #9c27b0;
+  }

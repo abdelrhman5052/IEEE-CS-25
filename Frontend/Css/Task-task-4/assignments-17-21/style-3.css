@@ -1,0 +1,29 @@
+.master{
+    background-color: #eee;
+    color: black;
+    font-size: larger;
+    letter-spacing: 0px;
+    width: 400px;
+    text-indent: 15px;
+  }
+  .master2
+  {
+    background-color: #eee;
+    color: black;
+    font-size: larger;
+    letter-spacing: 0px;
+    width: 400px;
+    white-space: nowrap;
+    overflow: hidden;
+  }
+  .master3
+  {
+    background-color: #eee;
+    color: black;
+    font-size: larger;
+    letter-spacing: 0px;
+    width: 400px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+  }

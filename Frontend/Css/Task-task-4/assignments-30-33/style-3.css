@@ -1,0 +1,22 @@
+.HTML,
+.CSS,
+.js {
+    background-color: #eeeeee;
+    width: 400px;
+    margin: 30px auto;
+    list-style-type: none;
+    padding: 10px;
+}
+li {
+    font-size: 20px;
+    background-color: white;
+    margin: 5px ;
+    padding: 10px;
+    width: 90%;
+    list-style-position: outside;
+}
+.js ul,
+.js li {
+    list-style-position: inside;
+    padding-left: 10px;
+}

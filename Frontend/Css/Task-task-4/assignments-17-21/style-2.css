@@ -1,0 +1,16 @@
+.one,
+.two,
+.three {
+  font: 3em sans serfi;
+  text-align: center;
+}
+
+.one {
+  text-transform: Uppercase;
+}
+.two {
+  text-transform: capitalize;
+}
+.three {
+  text-transform: lwoercase;
+}
