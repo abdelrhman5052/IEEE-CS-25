@@ -1,0 +1,54 @@
+
+.container-ass-5{
+    width: 200px;
+    margin: 40px auto;
+    perspective: 600px;
+}
+.ass-5{
+    width: 200px;
+    height: 200px;
+    position: relative;
+    transition: transform .5s;
+    transform-style: preserve-3d;
+}
+.ass-5:hover{
+    transform: rotateY(-180deg);
+    
+}
+.ass-5::before, .ass-5::after{
+    backface-visibility: hidden;
+}
+.ass-5::before{
+    content: "front";
+    width: 100%;
+    height: 100%;
+    background-color: #FA3664;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    font-family: monospace;
+}
+.ass-5::after{
+    content: "back";
+    width: 100%;
+    height: 100%;
+    background-color: #1692FC;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    color: #fff;
+    font-family: monospace;
+    text-transform: capitalize;
+    transform: rotateY(-180deg);
+}

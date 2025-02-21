@@ -1,0 +1,35 @@
+.assign-1-grid {
+    background-color: #ddd;
+    padding: 20px;
+    width: 800px;
+    height: 400px;
+    margin: 0 auto;
+    counter-increment: add-num;
+    display: grid;
+    grid-template-columns: repeat(3 , 1fr);
+    grid-template-rows: auto 1fr;
+    gap: 10px 10px;
+  }
+
+  .assign-1-grid div {
+    background-color: #607d8b;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .assign-1-grid div::before {
+    content: "Element";
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+  }
+
+  .assign-1-grid div::after {
+    content: counter(add-num);
+    color: white;
+    padding-left: 5px;
+    font-size: 20px;
+    font-weight: bold;
+  }

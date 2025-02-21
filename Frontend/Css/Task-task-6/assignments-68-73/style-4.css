@@ -1,0 +1,32 @@
+.ass-4{
+    width: 200px;
+    height: 200px;
+    background-color: #607D8B;
+    margin: 200px auto;
+    position: relative;
+    box-sizing: border-box;
+    border-bottom: 5px solid #000;
+}
+.ass-4::before{
+    content: "";
+    width: 71%;
+    height: 73%;
+    background-color: #000;
+    position: absolute;
+    transform: rotate(45deg);
+    left: 29px;
+    top: -71px;
+    border-bottom: 3px solid #fff;
+    border-right: 3px solid #fff;
+    box-sizing: border-box;
+}
+.ass-4::after{
+    content: "Elzero";
+    width: 100%;
+    position: absolute;
+    left: 10px;
+    bottom: 5px;
+    color: #fff;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}

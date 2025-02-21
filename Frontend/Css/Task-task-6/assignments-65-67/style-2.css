@@ -1,0 +1,52 @@
+.assign-2-parent {
+    position: relative;
+    height: 400px;
+  }
+  
+  .assign-2 {
+    width: 200px;
+    height: 200px;
+    background-color: #eee;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    font-weight: bold;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transition: border .5s 0s ease;
+    transform: translate(-50% , -50%);
+  }
+  
+  
+  .assign-2::after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: absolute;
+    border: 10px solid #e91e66;
+    border-left-color: transparent ; 
+    transition: .5s .0s ease;
+  }
+  
+  .assign-2::before {
+    content: "";
+    width: 215px;
+    height: 215px;
+    border-radius: 50%;
+    border: 10px solid #2694f8;
+    border-right-color: transparent ;
+    position: absolute;
+    transition: .5s .5s ease;
+  }
+  
+  .assign-2-parent:hover .assign-2::before {
+    transform: rotate(180deg);
+  }
+  
+  .assign-2-parent:hover .assign-2::after {
+    transform: rotate(180deg);
+  }

@@ -1,0 +1,27 @@
+.ass-1{
+    width: 150px;
+    margin: 80px auto;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    padding: 10px 0;
+    background-color: #FF5722;
+    color: #fff;
+}
+.ass-1::before,.ass-1::after{
+    content: "";
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: #FF5722;
+    z-index: -1;
+}
+.ass-1::before{
+    transform: skew(18deg, 10deg);
+}
+.ass-1::after{
+    transform: skew(-18deg, -10deg);
+}
+
