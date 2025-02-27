@@ -1,0 +1,4 @@
+.assign-8  *:not(:first-child , :last-child , h3) {
+    color: red;
+  }
+  

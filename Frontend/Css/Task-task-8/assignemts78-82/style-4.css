@@ -1,0 +1,5 @@
+
+.assign-4 > [title]:not(:nth-last-of-type(2)) {
+    color: red;
+  }
+  

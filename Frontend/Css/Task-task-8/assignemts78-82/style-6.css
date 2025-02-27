@@ -1,0 +1,4 @@
+
+.assign-6 div:not([class]) > div:nth-last-of-type(2) {
+    color: red;
+  }

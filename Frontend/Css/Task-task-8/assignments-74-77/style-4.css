@@ -1,0 +1,135 @@
+.assign-4 {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+    position: relative;
+    width: 600px;
+}
+.assign-4 .e-letter , .assign-4 .l-letter {
+    display: grid;
+    width: 320px ;
+    height: 600px;
+    grid-template-columns: 90px 110px 120px;
+}
+.assign-4 .e-letter {
+    grid-template-areas: "col1 line-1 line-1"
+    "col1 . ."
+    "col1 . ."
+    "col1 line-2 line-2"
+    "col1 . ."
+    "col1 . ."
+    "col1 line-3 line-3";
+}
+.assign-4 .l-letter {
+    grid-template-areas: "col1 . ."
+    "col1 . ."
+    "col1 . ."
+    "col1 . ."
+    "col1 . ."
+    "col1 . ."
+    "col1 line-3 line-3";
+}
+.line-1 , .line-2 , .line-3 , .col1 {
+    background-color: #323232;
+}
+.line-1 {
+    grid-area: line-1;
+}
+.line-2 {
+    grid-area: line-2;
+}
+.line-3 {
+    grid-area: line-3;
+}
+.col1 {
+    grid-area: col1;
+}
+.assign-4::after , .assign-4::before {
+    content: "";
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    background-color: #FEA604;
+    animation-duration: 3s;
+    animation-timing-function: linear;
+    animation-iteration-count: 1;
+}
+.assign-4::after {
+    top: 18px;
+    left: 215px;
+    animation-name: move-e;
+}
+.assign-4::before {
+    right: -18px;
+    bottom: 18px;
+    animation-name: move-l;
+    animation-delay: 3.3s;
+    visibility: hidden;
+}
+@keyframes move-e {
+    0% {
+        left: 215px;
+        top: 18px;
+    }
+    10% {
+        left: -18px;
+        top: 18px;
+    }
+    20% {
+        top: 275px;
+        left: -18px;
+    }
+    30% {
+        left: 215px;
+        top: 275px;
+    }
+    40% {
+        left: -18px;
+        top: 275px
+    }
+    60% {
+        top: 530px;
+        left: -18px;
+    }
+    70% {
+        left: 215px;
+        top: 530px;
+    }
+    80% {
+        left: -18px;
+        top: 530px;
+    }
+    90% {
+        top: 18px;
+        left: -18px;
+    }
+    100% {
+        left: 215px;
+        top: 18px;
+    }
+}
+@keyframes move-l {
+    0% {
+        right: -18px;
+        bottom: 18px;
+        opacity: 1;
+        visibility: visible;
+    }
+    40% {
+        bottom: 18px;
+        right: 210px;
+        opacity: 1;
+    }
+    80% {
+        right: 210px;
+        bottom: 530px;
+        opacity: 1;
+    }
+    100% {
+        right: 210px;
+        bottom: 530px;
+        opacity: 0;
+    }
+}

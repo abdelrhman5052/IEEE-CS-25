@@ -1,0 +1,4 @@
+
+.assign-3 .parent .baby:only-child {
+    color: red;
+  }

@@ -1,0 +1,4 @@
+
+.assign-2 .parent .child:nth-child(2) {
+    color: red;
+  }

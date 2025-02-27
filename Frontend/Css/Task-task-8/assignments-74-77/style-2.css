@@ -1,0 +1,31 @@
+.parent {
+    margin: 200px auto;
+    width: 50px; height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.parent div {
+    border-radius: 50%;
+    position: absolute;
+}
+.parent:hover {
+    animation: rotate 1s linear infinite;
+}
+.parent div:nth-child(1) {
+    width: 50px; height: 50px;
+    border: 5px solid #1F95E0;
+    border-bottom-color: transparent;
+}
+.parent div:nth-child(2) {
+    width: calc(50px + 20px); height: calc(50px + 20px);
+    border: 5px solid #FC9C00;
+    border-bottom-color: transparent;
+    animation: 2s;
+}
+.parent div:nth-child(3) {
+    width: calc(50px + 40px); height: calc(50px + 40px);
+    border: 5px solid #262626;
+    border-bottom-color: transparent;
+}

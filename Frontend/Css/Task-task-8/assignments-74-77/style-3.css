@@ -1,0 +1,9 @@
+span {
+    margin: 200px auto;
+    width: 50px; height: 50px;
+    border-radius: 50%;
+    border: 5px solid #1c1c1c;
+    border-left-color: transparent;
+    animation: rotate 1s linear infinite;
+}
+
