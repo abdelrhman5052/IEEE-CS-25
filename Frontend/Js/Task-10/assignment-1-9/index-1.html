@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <title>Learn JavaScript</title>
+    
+<!--  this code will not work becase the scrpiting come befor load the 
+  Uncaught TypeError: Cannot read property 'style' of null
+    at index.html:9
+-->
+    <script>
+      // Code 1
+      document.getElementById("el").style.color = "red";
+    </script>
+    
+
+
+    <!--  this code will not work becase the scrpiting come befor load the 
+  Uncaught TypeError: Cannot read property 'style' of null
+    at index.html:9
+-->
+    <script>
+      // Code 2
+      window.onload = function () {
+        document.getElementById("el").style.color = "red";
+      };
+    </script>
+    
+  </head>
+  <body>
+    <h1 id="el">Page Title</h1>
+    
+    <script>
+      // Code 3
+      document.getElementById("el").style.color = "red";
+    </script>
+  </body>
+</html>
